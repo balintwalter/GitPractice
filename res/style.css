@@ -1,3 +1,75 @@
-body{
-    background-color: yellow;
+body
+{
+    background-color: pink;
+}
+nav
+{
+    background: #666666;
+    color: #ffffff;
+}
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+nav li
+{
+    display: inline-block;
+}
+nav a
+{
+    display: block;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ddd;
+    transition: background 0.3s, color 0.3s;
+}
+nav a:hover
+{
+    background: #444;
+    color: #fff;
+}
+/*Szolgáltatások - Táblázat*/
+table
+{
+    width: 100%;
+    border-collapse: collapse; /*nincs hézag a cellák között*/
+}
+thead
+{
+    background: #666;
+    color: #fff;
+}
+th
+{
+    text-align: left;
+}
+th,
+td
+{
+    padding: 5px;
+    padding-left: 15px;
+}
+tbody tr
+{
+    border-bottom: 1px solid #ddd;
+}
+tbody tr:hover
+{
+    background: #eee;
+}
+.container table a
+{
+    background: transparent;
+    color: rgba(245, 156, 55, 0.808);
+}
+.container table a:hover
+{
+    background: transparent;
+    color: rgb(209, 101, 28);
 }
