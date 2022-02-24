@@ -29,7 +29,8 @@ var data =
 	["Olyan sötét vagy", "mint az éjszaka."],
 	["Úgy vág az esze", "mint a borotva!"],
 	["Olyan világos", "mint a vakablak."],
-	["Neki esik", "mint Tóth a vadkörtének."]
+	["Neki esik", "mint Tóth a vadkörtének."],
+	["Összerogyik", "mint a baktermarhája."]
 ];
 
 var r1 = Math.floor(Math.random() * data.length);
