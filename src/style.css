@@ -15,6 +15,7 @@
 {
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+
 .container
 {
     max-width: 1200px;
@@ -29,6 +30,101 @@ main
     box-sizing: border-box; /*oldalsáv miatt*/
 	text-align: center;
 }
+
+/* Header */
+.elso
+{
+    background-image: linear-gradient(#c12f8a, #4E2A9D); 
+    width: 100%;
+    max-width: 1200px;
+    height: 450px;
+    margin: auto;
+    padding-left: 30px;
+	margin-bottom: 50px;
+}
+
+.elso nav
+{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elso nav img
+{
+    width: 200px;
+}
+
+.elso li
+{
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    color: #fff;
+}
+
+.elso .medium
+{
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.elso .medium .info
+{
+    width: 48%;
+    text-align: center;
+    color: #fff;
+    float: left;
+    padding-right: 60px;
+}
+
+.elso .info h1,
+.elso .info p
+{
+    margin-bottom: 15px;
+}
+
+.elso .info a
+{
+    text-decoration: none;
+    color: #fff;
+    background: #2ec0a4;
+    padding: 10px 15px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.elso .info a:hover
+{
+    background: #218773;
+}
+
+.elso .medium .image
+{
+    width: 48%;
+    float: right;
+}
+
+.elso .medium img
+{
+    width: 75%;
+}
+
+.elso .bottom
+{
+    height: 40px;
+    background-image: url(Company/header-bottom.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+>>>>>>> a3d270b (Header style)
 html
 {
     margin: 0px;
